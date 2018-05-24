@@ -7,7 +7,7 @@
 
 
 typedef struct BTNode{
-    char data;
+    int data;
     struct BTNode * pLchild;
     struct BTNode * pRchild;
 } TNode,*PTNode;

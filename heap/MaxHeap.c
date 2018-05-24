@@ -2,7 +2,7 @@
 // Created by Administrator on 2017/11/18.
 //
 
-#include "BinaryHeap.h"
+#include "MaxHeap.h"
 #include <stdlib.h>
 #include <assert.h>
 #include <stdio.h>

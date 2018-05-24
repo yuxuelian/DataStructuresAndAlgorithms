@@ -15,22 +15,22 @@ PTNode CreateStaticTree() {
     PTNode ptNodeF = (PTNode) malloc(sizeof(TNode));
     PTNode ptNodeG = (PTNode) malloc(sizeof(TNode));
 
-    ptNodeA->data = 'A';
+    ptNodeA->data = 1;
     ptNodeA->pLchild = ptNodeB;
     ptNodeA->pRchild = ptNodeC;
 
-    ptNodeB->data = 'B';
+    ptNodeB->data = 2;
     ptNodeB->pLchild = ptNodeD;
     ptNodeB->pRchild = ptNodeE;
 
-    ptNodeC->data = 'C';
+    ptNodeC->data = 3;
     ptNodeC->pLchild = ptNodeF;
     ptNodeC->pRchild = ptNodeG;
 
-    ptNodeD->data = 'D';
-    ptNodeE->data = 'E';
-    ptNodeF->data = 'F';
-    ptNodeG->data = 'G';
+    ptNodeD->data = 4;
+    ptNodeE->data = 5;
+    ptNodeF->data = 6;
+    ptNodeG->data = 7;
 
     ptNodeD->pLchild = ptNodeD->pRchild = NULL;
     ptNodeE->pLchild = ptNodeE->pRchild = NULL;
@@ -62,4 +62,15 @@ void PostTraverseTree(PTNode ptNode) {
         PreTraverseTree(ptNode->pRchild);
         printf("%c\t", ptNode->data);
     }
+}
+
+/**
+ * 对二叉树进行层序遍历
+ * @param ptNode
+ */
+void levelTree(PTNode ptNode) {
+
+//    LinkQUEUE linkQUEUE = createQueue();
+
+
 }

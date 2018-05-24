@@ -2,8 +2,8 @@
 // Created by Administrator on 2017/11/18.
 //
 
-#ifndef TEST1_BINARYHEAP_H
-#define TEST1_BINARYHEAP_H
+#ifndef MAX_HEAP_H
+#define MAX_HEAP_H
 
 
 typedef struct {
@@ -71,4 +71,4 @@ void traverseMaxHeap(PMaxHeap pMaxHeap);
  */
 void printTreeMaxHeap(PMaxHeap pMaxHeap);
 
-#endif //TEST1_BINARYHEAP_H
+#endif

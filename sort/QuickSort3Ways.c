@@ -41,14 +41,17 @@ static void __QuickSort3Ways(int *arr, int low, int high) {
     while (i < gt) {
         if (arr[i] < v) {
             ++lt;
+
             //swap(arr[i],arr[lt])
             temp = arr[i];
             arr[i] = arr[lt];
             arr[lt] = temp;
+
             ++i;
         } else if (arr[i] > v) {
             //swap(arr[i],arr[gt-1])
             --gt;
+
             temp = arr[i];
             arr[i] = arr[gt];
             arr[gt] = temp;

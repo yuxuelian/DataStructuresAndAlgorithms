@@ -3,7 +3,7 @@
 //
 
 #include "HeapSort.h"
-#include "BinaryHeap.h"
+#include "MaxHeap.h"
 
 static void __shiftDown(int *pInt, int i);
 
